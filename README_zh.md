@@ -3,7 +3,7 @@
 # Unique3D
 High-Quality and Efficient 3D Mesh Generation from a Single Image
 
-## [论文]() | [项目页面](https://wukailu.github.io/Unique3D/)  | [Huggingface Demo]() | [在线演示](https://www.aiuni.ai/)
+## [论文]() | [项目页面](https://wukailu.github.io/Unique3D/)  | [Gradio Demo](https://u45213-bcf9-ef67553e.westx.seetacloud.com:8443/) | [在线演示](https://www.aiuni.ai/)
 
 ![](assets/fig_teaser.png)
 

@@ -5,7 +5,9 @@ High-Quality and Efficient 3D Mesh Generation from a Single Image
 
 ## [论文]() | [项目页面](https://wukailu.github.io/Unique3D/)  | [Gradio Demo](https://u45213-bcf9-ef67553e.westx.seetacloud.com:8443/) | [在线演示](https://www.aiuni.ai/)
 
-![](assets/fig_teaser.png)
+<p align="center">
+    <img src="assets/teaser_safe.jpg">
+</p>
 
 Unique3D从单视图图像生成高保真度和多样化纹理的网格，在4090上大约需要30秒。
 

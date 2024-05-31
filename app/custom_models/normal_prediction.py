@@ -5,7 +5,7 @@ from app.custom_models.utils import load_pipeline
 from scripts.utils import rotate_normals_torch
 from scripts.all_typing import *
 
-training_config = "app/custom_models/image2image-objaverseF-rgb2normal.yaml"
+training_config = "app/custom_models/image2normal.yaml"
 checkpoint_path = "ckpt/image2normal/unet_state_dict.pth"
 trainer, pipeline = load_pipeline(training_config, checkpoint_path)
 pipeline.enable_model_cpu_offload()

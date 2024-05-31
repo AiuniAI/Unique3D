@@ -9,7 +9,7 @@ from app.custom_models.utils import load_pipeline
 from scripts.all_typing import *
 from scripts.utils import session, simple_preprocess
 
-training_config = "app/custom_models/image2mvimage-objaverseFrot-wonder3d.yaml"
+training_config = "app/custom_models/image2mvimage.yaml"
 checkpoint_path = "ckpt/img2mvimg/unet_state_dict.pth"
 trainer, pipeline = load_pipeline(training_config, checkpoint_path)
 pipeline.enable_model_cpu_offload()

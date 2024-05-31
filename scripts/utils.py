@@ -249,7 +249,7 @@ def save_glb_and_video(save_mesh_prefix: str, meshes: Meshes, with_timestamp=Tru
     ret_mesh = save_mesh_prefix + ".glb"
     # optimizied version
     save_py3dmesh_with_trimesh_fast(meshes, ret_mesh)
-    return ret_mesh, "novideo"
+    return ret_mesh, None
 
 
 def simple_clean_mesh(pyml_mesh: ml.Mesh, apply_smooth=True, stepsmoothnum=1, apply_sub_divide=False, sub_divide_threshold=0.25):

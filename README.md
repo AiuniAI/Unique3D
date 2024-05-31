@@ -76,3 +76,17 @@ We have intensively borrowed code from the following repositories. Many thanks t
 
 ## Collaborations
 Our mission is to create a 4D generative model with 3D concepts. This is just our first step, and the road ahead is still long, but we are confident. We warmly invite you to join the discussion and explore potential collaborations in any capacity. <span style="color:red">**If you're interested in connecting or partnering with us, please don't hesitate to reach out via email (wkl22@mails.tsinghua.edu.cn)**</span>.
+
+## Citation
+
+If you found Unique3D helpful, please cite our report:
+```bibtex
+@misc{wu2024unique3d,
+      title={Unique3D: High-Quality and Efficient 3D Mesh Generation from a Single Image}, 
+      author={Kailu Wu and Fangfu Liu and Zhihan Cai and Runjie Yan and Hanyang Wang and Yating Hu and Yueqi Duan and Kaisheng Ma},
+      year={2024},
+      eprint={2405.20343},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```

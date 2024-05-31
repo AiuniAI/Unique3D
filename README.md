@@ -9,7 +9,7 @@ Official implementation of Unique3D: High-Quality and Efficient 3D Mesh Generati
 
 <!-- [Huggingface Demo]() | -->
 
-
+** The Gradio Demo is currently unstable due to a memory leak, which we are working on fixing as well as creating a stable Huggingface Demo. **
 
 
 <p align="center">

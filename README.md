@@ -23,7 +23,7 @@ The repo is still being under construction, thanks for your patience.
 - [x] Upload weights.
 - [x] Local gradio demo.
 - [ ] Detailed tutorial.
-- [ ] Huggingface demo.
+- [x] Huggingface demo.
 - [ ] Detailed local demo.
 - [ ] Comfyui support.
 - [ ] Windows support.

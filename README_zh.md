@@ -26,7 +26,7 @@ pip install -r requirements.txt
 
 #### 交互式推理：运行您的本地gradio演示
 
-1. 下载[ckpt.zip]()，并将其解压到`ckpt/*`。
+1. 从 [huggingface spaces](https://huggingface.co/spaces/Wuvin/Unique3D/tree/main/ckpt) 下载或者从[清华云盘](https://cloud.tsinghua.edu.cn/d/319762ec478d46c8bdf7/)下载权重，并将其解压到`ckpt/*`。
 ```
 Unique3D
     ├──ckpt

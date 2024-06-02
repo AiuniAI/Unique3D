@@ -9,8 +9,6 @@ Official implementation of Unique3D: High-Quality and Efficient 3D Mesh Generati
 
 <!-- [Huggingface Demo]() | -->
 
-**The Gradio Demo is currently unstable due to a memory leak, which we are working on fixing as well as creating a stable Huggingface Demo.**
-
 **If the Gradio Demo unfortunately hangs or is very crowded, you can use the Online Demo, which is free to try, and the registration invitation code is `aiuni24`. However, the Online Demo is slightly different from the Gradio Demo, in that the inference speed is slower, and the generation results is less stable, but the quality of the material is better.**
 
 <p align="center">

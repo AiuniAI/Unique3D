@@ -42,7 +42,7 @@ pip install -r requirements.txt
 
 ### Interactive inference: run your local gradio demo.
 
-1. Download the weights from [huggingface spaces](https://huggingface.co/spaces/Wuvin/Unique3D/tree/main/ckpt), and extract it to `ckpt/*`.
+1. Download the weights from [huggingface spaces](https://huggingface.co/spaces/Wuvin/Unique3D/tree/main/ckpt) or [Tsinghua Cloud Drive](https://cloud.tsinghua.edu.cn/d/319762ec478d46c8bdf7/), and extract it to `ckpt/*`.
 ```
 Unique3D
     ├──ckpt

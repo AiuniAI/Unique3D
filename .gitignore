@@ -208,7 +208,10 @@ ckpt/*
 *.profile
 
 # zipfiles
-
 *.zip
 *.tar
 *.tar.gz
+
+# others
+run_30.sh
+ckpt

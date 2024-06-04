@@ -5,8 +5,8 @@ import torch
 from typing import List
 from mesh_reconstruction.remesh import calc_vertex_normals
 from mesh_reconstruction.opt import MeshOptimizer
-from mesh_reconstruction.func import make_star_cameras_orthographic
-from mesh_reconstruction.render import NormalsRenderer
+from mesh_reconstruction.func import make_star_cameras_orthographic, make_star_cameras_orthographic_py3d
+from mesh_reconstruction.render import NormalsRenderer, Pytorch3DNormalsRenderer
 from scripts.utils import to_py3d_mesh, init_target
 
 def reconstruct_stage1(pils: List[Image.Image], steps=100, vertices=None, faces=None, start_edge_len=0.15, end_edge_len=0.005, decay=0.995, return_mesh=True, loss_expansion_weight=0.1, gain=0.1):
@@ -14,6 +14,8 @@ def reconstruct_stage1(pils: List[Image.Image], steps=100, vertices=None, faces=
     assert len(pils) == 4
     mv,proj = make_star_cameras_orthographic(4, 1)
     renderer = NormalsRenderer(mv,proj,list(pils[0].size))
+    # cameras = make_star_cameras_orthographic_py3d([0, 270, 180, 90], device="cuda", focal=1., dist=4.0)
+    # renderer = Pytorch3DNormalsRenderer(cameras, list(pils[0].size), device="cuda")
     
     target_images = init_target(pils, new_bkgd=(0., 0., 0.)) # 4s
     # 1. no rotate

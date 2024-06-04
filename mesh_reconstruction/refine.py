@@ -4,8 +4,8 @@ import torch
 from typing import List
 from mesh_reconstruction.remesh import calc_vertex_normals
 from mesh_reconstruction.opt import MeshOptimizer
-from mesh_reconstruction.func import make_star_cameras_orthographic
-from mesh_reconstruction.render import NormalsRenderer
+from mesh_reconstruction.func import make_star_cameras_orthographic, make_star_cameras_orthographic_py3d
+from mesh_reconstruction.render import NormalsRenderer, Pytorch3DNormalsRenderer
 from scripts.project_mesh import multiview_color_projection, get_cameras_list
 from scripts.utils import to_py3d_mesh, from_py3d_mesh, init_target
 
@@ -19,6 +19,8 @@ def run_mesh_refine(vertices, faces, pils: List[Image.Image], steps=100, start_e
     assert len(pils) == 4
     mv,proj = make_star_cameras_orthographic(4, 1)          
     renderer = NormalsRenderer(mv,proj,list(pils[0].size))
+    # cameras = make_star_cameras_orthographic_py3d([0, 270, 180, 90], device="cuda", focal=1., dist=4.0)
+    # renderer = Pytorch3DNormalsRenderer(cameras, list(pils[0].size), device="cuda")
 
     target_images = init_target(pils, new_bkgd=(0., 0., 0.)) # 4s
     # 1. no rotate

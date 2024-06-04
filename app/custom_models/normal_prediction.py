@@ -8,7 +8,7 @@ from scripts.all_typing import *
 training_config = "app/custom_models/image2normal.yaml"
 checkpoint_path = "ckpt/image2normal/unet_state_dict.pth"
 trainer, pipeline = load_pipeline(training_config, checkpoint_path)
-pipeline.enable_model_cpu_offload()
+# pipeline.enable_model_cpu_offload()
 
 def predict_normals(image: List[Image.Image], guidance_scale=2., do_rotate=True, num_inference_steps=30, **kwargs):
     img_list = image if isinstance(image, list) else [image]

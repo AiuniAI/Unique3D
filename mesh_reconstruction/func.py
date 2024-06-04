@@ -116,3 +116,18 @@ def make_sphere(level:int=2,radius=1.,device='cuda') -> Tuple[torch.Tensor,torch
     vertices = torch.tensor(sphere.vertices, device=device, dtype=torch.float32) * radius
     faces = torch.tensor(sphere.faces, device=device, dtype=torch.long)
     return vertices,faces
+
+from pytorch3d.renderer import (
+    FoVOrthographicCameras,
+    look_at_view_transform,
+)
+
+def get_camera(R, T, focal_length=1 / (2**0.5)):
+    focal_length = 1 / focal_length
+    camera = FoVOrthographicCameras(device=R.device, R=R, T=T, min_x=-focal_length, max_x=focal_length, min_y=-focal_length, max_y=focal_length)
+    return camera
+
+def make_star_cameras_orthographic_py3d(azim_list, device, focal=2/1.35, dist=1.1):
+    R, T = look_at_view_transform(dist, 0, azim_list)
+    focal_length = 1 / focal
+    return FoVOrthographicCameras(device=R.device, R=R, T=T, min_x=-focal_length, max_x=focal_length, min_y=-focal_length, max_y=focal_length).to(device)

@@ -12,7 +12,7 @@ from scripts.utils import session, simple_preprocess
 training_config = "app/custom_models/image2mvimage.yaml"
 checkpoint_path = "ckpt/img2mvimg/unet_state_dict.pth"
 trainer, pipeline = load_pipeline(training_config, checkpoint_path)
-pipeline.enable_model_cpu_offload()
+# pipeline.enable_model_cpu_offload()
 
 def predict(img_list: List[Image.Image], guidance_scale=2., **kwargs):
     if isinstance(img_list, Image.Image):

@@ -44,6 +44,19 @@ pip install -r requirements.txt
 
 * Thank you very much `jtydhr88` for the windows installation method! See [issues/15](https://github.com/AiuniAI/Unique3D/issues/15).
 
+According to [issues/15](https://github.com/AiuniAI/Unique3D/issues/15), implemented a bat script to run the commands, so you can:
+1. Might still require Visual Studio Build Tools, you can find it from [Visual Studio Build Tools](https://visualstudio.microsoft.com/downloads/?q=build+tools).
+2. Create conda env and activate it
+   1. `conda create -n unique3d-py311 python=3.11`
+   2. `conda activate unique3d-py311`
+3. download [triton whl](https://huggingface.co/madbuda/triton-windows-builds/resolve/main/triton-2.1.0-cp311-cp311-win_amd64.whl) for py311, and put it into this project.
+4. run **install_windows_win_py311_cu121.bat**
+5. answer y while asking you uninstall onnxruntime and onnxruntime-gpu
+6. create the output folder **tmp\gradio** under the driver root, such as F:\tmp\gradio for me.
+7. python app/gradio_local.py --port 7860
+
+More details prefer to [issues/15](https://github.com/AiuniAI/Unique3D/issues/15).
+
 ### Interactive inference: run your local gradio demo.
 
 1. Download the weights from [huggingface spaces](https://huggingface.co/spaces/Wuvin/Unique3D/tree/main/ckpt) or [Tsinghua Cloud Drive](https://cloud.tsinghua.edu.cn/d/319762ec478d46c8bdf7/), and extract it to `ckpt/*`.

@@ -40,6 +40,10 @@ conda activate unique3d
 pip install -r requirements.txt
 ```
 
+### Windows Setup.
+
+* Thank you very much `jtydhr88` for the windows installation method! See [issues/15](https://github.com/AiuniAI/Unique3D/issues/15).
+
 ### Interactive inference: run your local gradio demo.
 
 1. Download the weights from [huggingface spaces](https://huggingface.co/spaces/Wuvin/Unique3D/tree/main/ckpt) or [Tsinghua Cloud Drive](https://cloud.tsinghua.edu.cn/d/319762ec478d46c8bdf7/), and extract it to `ckpt/*`.

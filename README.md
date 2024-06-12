@@ -9,7 +9,7 @@ Official implementation of Unique3D: High-Quality and Efficient 3D Mesh Generati
 
 * Demo inference speed: Gradio Demo > Huggingface Demo > Huggingface Demo2 > Online Demo
 
-**If the Gradio Demo unfortunately hangs or is very crowded, you can use the Online Demo, which is free to try (get the registration invitation code Join Discord:https://discord.gg/aiuni). However, the Online Demo is slightly different from the Gradio Demo, in that the inference speed is slower, and the generation results is less stable, but the quality of the material is better.**
+**If the Gradio Demo unfortunately hangs or is very crowded, you can use the Online Demo https://www.aiuni.ai/, which is free to try (get the registration invitation code Join Discord:https://discord.gg/aiuni). However, the Online Demo is slightly different from the Gradio Demo, in that the inference speed is slower, and the generation results is less stable, but the quality of the material is better.**
 
 <p align="center">
     <img src="assets/teaser_safe.jpg">

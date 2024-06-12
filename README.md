@@ -9,7 +9,7 @@ Official implementation of Unique3D: High-Quality and Efficient 3D Mesh Generati
 
 * Demo inference speed: Gradio Demo > Huggingface Demo > Huggingface Demo2 > Online Demo
 
-**If the Gradio Demo unfortunately hangs or is very crowded, you can use the Online Demo, which is free to try, and the registration invitation code is `aiuni24`. However, the Online Demo is slightly different from the Gradio Demo, in that the inference speed is slower, and the generation results is less stable, but the quality of the material is better.**
+**If the Gradio Demo unfortunately hangs or is very crowded, you can use the Online Demo [aiuni.ai](https://www.aiuni.ai/), which is free to try (get the registration invitation code Join Discord:https://discord.gg/aiuni). However, the Online Demo is slightly different from the Gradio Demo, in that the inference speed is slower, and the generation results is less stable, but the quality of the material is better.**
 
 <p align="center">
     <img src="assets/teaser_safe.jpg">
@@ -79,6 +79,10 @@ We have intensively borrowed code from the following repositories. Many thanks t
 
 ## Collaborations
 Our mission is to create a 4D generative model with 3D concepts. This is just our first step, and the road ahead is still long, but we are confident. We warmly invite you to join the discussion and explore potential collaborations in any capacity. <span style="color:red">**If you're interested in connecting or partnering with us, please don't hesitate to reach out via email (wkl22@mails.tsinghua.edu.cn)**</span>.
+
+- Follow us on twitter for the latest updates: https://x.com/aiuni_ai
+- Join AIGC 3D/4D generation community on discord: https://discord.gg/aiuni
+- Research collaboration, please contact: ai@aiuni.ai
 
 ## Citation
 

@@ -25,8 +25,8 @@ The repo is still being under construction, thanks for your patience.
 - [ ] Detailed tutorial.
 - [x] Huggingface demo.
 - [ ] Detailed local demo.
-- [ ] Comfyui support.
-- [ ] Windows support.
+- [x] Comfyui support.
+- [x] Windows support.
 - [ ] Docker support.
 - [ ] More stable reconstruction with normal.
 - [ ] Training code release.
@@ -61,6 +61,10 @@ Unique3D
 ```bash
 python app/gradio_local.py --port 7860
 ```
+
+## ComfyUI Support
+
+Thanks for the [ComfyUI-Unique3D](https://github.com/jtydhr88/ComfyUI-Unique3D) implementation from jtydhr88!
 
 ## Tips to get better results
 

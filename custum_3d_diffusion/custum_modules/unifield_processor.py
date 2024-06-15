@@ -204,6 +204,7 @@ class ConfigurableUNet2DConditionModel(Configurable, IPAdapterMixin):
         
         self.unet: UnifieldWrappedUNet = unet_type.from_pretrained(
             attn_config.init_unet_path, subfolder="unet", torch_dtype=self.weight_dtype, 
+            ignore_mismatched_sizes=True,  # Added this line
             **unet_kwargs
         )
         assert isinstance(self.unet, UnifieldWrappedUNet)

@@ -48,6 +48,8 @@ pip install mmcv-full -f https://download.openmmlab.com/mmcv/dist/cu121/torch2.3
 pip install -r requirements.txt
 ```
 
+[oak-barry](https://github.com/oak-barry) provide another setup script for torch210+cu121 at [here](https://github.com/oak-barry/Unique3D).
+
 ### Windows Setup.
 
 * Thank you very much `jtydhr88` for the windows installation method! See [issues/15](https://github.com/AiuniAI/Unique3D/issues/15).
@@ -85,7 +87,7 @@ python app/gradio_local.py --port 7860
 
 ## ComfyUI Support
 
-Thanks for the [ComfyUI-Unique3D](https://github.com/jtydhr88/ComfyUI-Unique3D) implementation from jtydhr88!
+Thanks for the [ComfyUI-Unique3D](https://github.com/jtydhr88/ComfyUI-Unique3D) implementation from [jtydhr88](https://github.com/jtydhr88)!
 
 ## Tips to get better results
 

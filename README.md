@@ -2,7 +2,6 @@
 
 # Unique3D
 Official implementation of Unique3D: High-Quality and Efficient 3D Mesh Generation from a Single Image. 
-Adapted for Ubuntu 22.04.4 LTS and CUDA 12.1.
 
 [Kailu Wu](https://scholar.google.com/citations?user=VTU0gysAAAAJ&hl=zh-CN&oi=ao), [Fangfu Liu](https://liuff19.github.io/), Zhihan Cai, Runjie Yan, Hanyang Wang, Yating Hu, [Yueqi Duan](https://duanyueqi.github.io/), [Kaisheng Ma](https://group.iiis.tsinghua.edu.cn/~maks/)
 
@@ -35,6 +34,8 @@ The repo is still being under construction, thanks for your patience.
 ## Preparation for inference
 
 ### Linux System Setup.
+
+Adapted for Ubuntu 22.04.4 LTS and CUDA 12.1.
 ```angular2html
 conda create -n unique3d python=3.11
 conda activate unique3d

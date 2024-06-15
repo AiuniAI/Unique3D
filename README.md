@@ -37,7 +37,11 @@ The repo is still being under construction, thanks for your patience.
 ```angular2html
 conda create -n unique3d
 conda activate unique3d
+# Match your cuda version.
+pip install torch==2.1.0 --index-url https://download.pytorch.org/whl/cu121
 pip install -r requirements.txt
+# Install xformers, this will find proper version, but not install torch again.
+pip install xformers torch==2.1.0+cu121
 ```
 
 ### Windows Setup.

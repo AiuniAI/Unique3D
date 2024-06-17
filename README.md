@@ -1,4 +1,6 @@
-**中文版本 [中文](README_zh.md)**
+**[中文版本](README_zh.md)**
+
+**[日本語版](README_jp.md)**
 
 # Unique3D
 Official implementation of Unique3D: High-Quality and Efficient 3D Mesh Generation from a Single Image. 

@@ -29,7 +29,7 @@ The repo is still being under construction, thanks for your patience.
 - [ ] Detailed local demo.
 - [x] Comfyui support.
 - [x] Windows support.
-- [ ] Docker support.
+- [x] Docker support.
 - [ ] More stable reconstruction with normal.
 - [ ] Training code release.
 

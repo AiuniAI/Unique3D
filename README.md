@@ -7,7 +7,7 @@ Official implementation of Unique3D: High-Quality and Efficient 3D Mesh Generati
 
 [Kailu Wu](https://scholar.google.com/citations?user=VTU0gysAAAAJ&hl=zh-CN&oi=ao), [Fangfu Liu](https://liuff19.github.io/), Zhihan Cai, Runjie Yan, Hanyang Wang, Yating Hu, [Yueqi Duan](https://duanyueqi.github.io/), [Kaisheng Ma](https://group.iiis.tsinghua.edu.cn/~maks/)
 
-## [Paper](https://arxiv.org/abs/2405.20343) | [Project page](https://wukailu.github.io/Unique3D/) | [Huggingface Demo](https://huggingface.co/spaces/Wuvin/Unique3D) | [Gradio Demo](https://u45213-bcf9-ef67553e.westx.seetacloud.com:8443/) | [Online Demo](https://www.aiuni.ai/)
+## [Paper](https://arxiv.org/abs/2405.20343) | [Project page](https://wukailu.github.io/Unique3D/) | [Huggingface Demo](https://huggingface.co/spaces/Wuvin/Unique3D) | [Gradio Demo](http://unique3d.demo.avar.cn/) | [Online Demo](https://www.aiuni.ai/)
 
 * Demo inference speed: Gradio Demo > Huggingface Demo > Huggingface Demo2 > Online Demo
 
